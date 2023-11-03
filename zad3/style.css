@@ -1,0 +1,63 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+#logo {
+	width: 100%;
+	height: 20%;
+	background-color: darkgray;
+	text-align: center;
+	padding: 5%;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#menu {
+	width: 20%;
+	height: 75%;
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: baseline;
+	align-items: center;
+	float: right;
+}
+
+#menu>a {
+	text-align: center;
+}
+
+#trescwlasciwa {
+	width: 80%;
+	height: 75%;
+	border: none;
+}
+
+#stopka {
+	width: 100%;
+	height: 5%;
+	background-color: darkgrey;
+	text-align: center;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 2em;
+	bottom: 0;
+	position: absolute;
+	clear: left;
+}
+
+#center {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
